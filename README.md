@@ -1,2 +1,0 @@
-# juryJune
-jury
