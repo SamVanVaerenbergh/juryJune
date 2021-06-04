@@ -1,0 +1,254 @@
+contenteditable{
+    outline: 1px solid transparent;
+}
+
+@font-face {
+    font-family: 'blackhybridv2';
+    font-style: normal;
+    src: url("blackHybrid.otf");
+}
+
+@font-face{
+    font-family: 'blackberry_2';
+    font-style: normal; 
+    src:url("blackBerry.otf");
+}
+
+
+body{
+	background-color: white; 
+}
+
+a {
+    text-align: center; 
+}
+
+a:link{
+    color: yellow; 
+    text-decoration: none;
+    text-align: center; 
+}
+
+a:hover{
+    color: yellow; 
+    text-decoration: none;
+    text-align: center;  
+}
+
+a:visited {
+    color: yellow; 
+    text-decoration: none;
+    text-align: center; 
+}
+
+a:active{
+    color: yellow;
+    text-decoration: none; 
+    text-align: center; 
+}
+
+div.link{
+    text-align: center; 
+    word-wrap: normal;
+    line-height: 80%; 
+}
+
+
+div.a {
+	text-align: center; 
+	word-wrap: normal;
+}
+
+
+
+
+div.b{
+ 
+    word-wrap: normal;
+    font-family: blackhybridv2;
+    color: black;
+    font-size: 350px;
+    text-align: center; 
+    word-wrap: normal; 
+    line-height: 90% ;
+
+}
+  
+
+
+
+div.c {
+    text-align: center; 
+}
+
+div.d {
+    font-family: blackberry_2;
+    color: black;
+    font-size: 260px;
+    text-align: center; 
+    word-wrap: normal;
+}
+
+
+a.link2{
+    margin-bottom: -100px;
+}
+
+@font-face {
+            font-family: "TEKST";
+            src: url(v8.ttf);
+        }
+
+@keyframes test {
+            
+             0% {
+                font-variation-settings: 'bold' 0 ;
+                
+            }
+  	20% {
+                font-variation-settings:  'bold' 200;
+            }
+    
+    60% {
+                font-variation-settings:  'bold' 500;
+            }
+    
+    100% {
+                font-variation-settings:  'bold' 0;
+            }
+    
+        }
+
+        #test {
+            font-family: "TEKST";
+            animation: test 5000ms infinite forwards;
+            color: black; 
+            font-size: 280px
+        }
+
+@font-face {
+            font-family: "PIXEL";
+            src: url(blackPixel.ttf);
+        }
+
+@keyframes test1 {
+            
+             0% {
+                font-variation-settings: 'test' 0 ;
+                
+            }
+  	20% {
+                font-variation-settings:  'test' 400;
+            }
+    
+    40% {
+                font-variation-settings:  'test' 700;
+            }
+
+
+    60% {
+                font-variation-settings:  'test' 1000;
+            }
+
+    80% {
+                font-variation-settings:  'test' 600;
+            }
+
+
+    
+    100% {
+                font-variation-settings:  'test' 0;
+            }
+    
+        }
+
+        #test1 {
+            font-family: "PIXEL";
+            animation: test1 10000ms infinite forwards;
+            color: black; 
+            font-size: 200px
+        }
+
+
+@font-face {
+            font-family: "pixel_Mono";
+            src: url(quadPixel.ttf);
+        }
+
+@keyframes test3 {
+            
+             0% {
+                font-variation-settings:'blck' 0, 'back' 0, 'form' 0;
+                
+            }
+    20% {
+                font-variation-settings: 'blck' 100, 'back' 200, 'form' 300;
+            }
+    
+    40% {
+                font-variation-settings: 'blck' 200, 'back' 300, 'form' 600;
+            }
+
+
+    60% {
+                font-variation-settings: 'blck' 300, 'back' 400, 'form' 1000;
+            }
+
+    80% {
+                font-variation-settings: 'blck' 500, 'back' 500, 'form' 400;
+            }
+
+
+    
+    100% {
+                font-variation-settings:'blck' 0, 'back' 0, 'form' 0;
+            }
+    
+        }
+
+        #test3 {
+            font-family: "pixel_Mono";
+            animation: test3 10000ms infinite forwards;
+            color: black; 
+            font-size: 300px
+        }
+
+
+
+@font-face {
+            font-family: "regularTapeface";
+            src: url(tapeFaceDesignspace_digi.ttf);
+        }
+
+@keyframes test5 {
+            
+             0% {
+                font-variation-settings:'dslv' 0, 'base' 0;
+                
+            }
+    20% {
+                font-variation-settings: 'dslv' 100, 'base' 0;
+            }
+    
+
+
+    60% {
+                font-variation-settings: 'dslv' 450, 'base' 0;
+            }
+
+
+
+    
+    100% {
+                font-variation-settings:'dslv' 0, 'base' 0;
+            }
+    
+        }
+
+        #test5 {
+            font-family: "regularTapeface";
+            animation: test5 10000ms infinite forwards;
+            color: black; 
+            font-size: 300px
+        }
+

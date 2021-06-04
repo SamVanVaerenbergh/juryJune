@@ -1,0 +1,68 @@
+Batch Generated Variable Fonts:
+*******************************
+
+source: /Users/samvv/Desktop/2020-2021/#3_atelier/#UFO/#2.Tapeface/tapeFace_juni/tapeFaceJuni.designspace
+path: /Users/samvv/Desktop/digitalTypeSpecimen/tapeFaceJuni.ttf
+    Making master glyphs compatible
+    '''''''''''''''''''''''''''''''
+        Adding missing glyph 'slash' in master 'tapeFace Baseline (foreground)'
+        Adding missing glyph 'slash' in master 'tapeFace Regular (foreground)'
+        Adding missing glyph 'slash' in master 'tapeFace Dissolve (foreground)'
+        Adding missing glyph 'plus' in master 'tapeFace Baseline (foreground)'
+        Adding missing glyph 'plus' in master 'tapeFace Regular (foreground)'
+        Adding missing glyph 'plus' in master 'tapeFace Dissolve (foreground)'
+        Adding missing glyph 'asterisk' in master 'tapeFace Baseline (foreground)'
+        Adding missing glyph 'asterisk' in master 'tapeFace Regular (foreground)'
+        Adding missing glyph 'asterisk' in master 'tapeFace Dissolve (foreground)'
+        Adding missing glyph 'grave' in master 'tapeFace Baseline (foreground)'
+        Adding missing glyph 'grave' in master 'tapeFace Regular (foreground)'
+        Adding missing glyph 'grave' in master 'tapeFace Dissolve (foreground)'
+
+    Decompose Mixed Glyphs
+    ''''''''''''''''''''''
+
+    Making master kerning compatible
+    ''''''''''''''''''''''''''''''''
+
+
+    Generate TTF
+    ''''''''''''
+
+        Generate tapeFace Baseline (foreground)
+            --------------------
+            
+            makeotf Report
+            
+            makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+            makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+            makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+            makeotfexe [WARNING] <tapeFace-Baseline> [internal] Feature block seen before any language system statement. You should place languagesystem statements before any feature definition [features 3]
+            Built development mode font '/privatetemp_00_tapeFace-Baseline-foreground.ttf'.
+            
+            --------------------
+
+        Generate tapeFace Regular (foreground)
+            --------------------
+            
+            makeotf Report
+            
+            makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+            makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+            makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+            makeotfexe [WARNING] <tapeFace-Regular> [internal] Feature block seen before any language system statement. You should place languagesystem statements before any feature definition [features 3]
+            Built development mode font '/privatetemp_01_tapeFace-Regular-foreground.ttf'.
+            
+            --------------------
+
+        Generate tapeFace Dissolve (foreground)
+            --------------------
+            
+            makeotf Report
+            
+            makeotf [Note] setting the USE_TYPO_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+            makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+            makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+            makeotfexe [WARNING] <tapeFace-Dissolve> [internal] Feature block seen before any language system statement. You should place languagesystem statements before any feature definition [features 3]
+            Built development mode font '/privatetemp_02_tapeFace-Dissolve-foreground.ttf'.
+            
+            --------------------

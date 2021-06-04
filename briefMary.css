@@ -1,0 +1,236 @@
+
+
+body {
+	background-color: white;
+
+}
+
+a{
+	margin-left: 30px; 
+	line-height: 100%;    
+}
+
+a:link{
+    color: black; 
+    text-decoration: none;
+}
+
+a:hover{
+    color: white; 
+    text-decoration: none; 
+}
+
+a:visited {
+    color: black; 
+    text-decoration: nine
+}
+
+a:active{
+    color: white;
+    text-decoration: none; 
+}
+
+div.b {
+	margin-left: 90px;
+	line-height: 100%;
+}
+
+div.c {
+	margin-left: 90px; 
+	line-height: 100%;
+}
+
+div.d {
+	margin-left: 90px; 
+	line-height: 100%;
+}
+
+div.e {
+	margin-left: 90px; 
+	line-height: 100%;
+}
+
+@font-face {
+            font-family: "pixel_Mono";
+            src: url(quadPixel.ttf);
+        }
+
+@keyframes aanspreking {
+            
+             0% {
+                font-variation-settings: 'blck' 0, 'back' 0, 'form' 0 ;
+                
+            }
+  	20% {
+                font-variation-settings:  'blck' 200, 'back' 400, 'form' 0;
+            }
+    
+    50% {
+                font-variation-settings:  'blck' 1000, 'back' 1000, 'form' 0;
+            }
+
+    80% {
+    			font-variation-settings: 'blck' 600, 'back' 300, 'form' 0;
+    }
+    
+    100% {
+                font-variation-settings:  'blck' 0, 'back' 0, 'form' 0;
+            }
+    
+        }
+
+        #aanspreking {
+            font-family: "pixel_Mono";
+            animation: aanspreking 20000ms infinite forwards;
+            color: black; 
+            font-size: 150px
+        }
+
+
+@font-face {
+            font-family: "pixel_Mono";
+            src: url(quadPixel.ttf);
+        }
+
+@keyframes eersteRegel {
+            
+             0% {
+                font-variation-settings: 'blck' 0, 'back' 0, 'form' 0 ;
+                
+            }
+  	20% {
+                font-variation-settings:  'blck' 200, 'back' 0, 'form' 500;
+            }
+    
+    50% {
+                font-variation-settings:  'blck' 1000, 'back' 0, 'form' 1000;
+            }
+
+    80% {
+    			font-variation-settings: 'blck' 600, 'back' 0, 'form' 600;
+    }
+    
+    100% {
+                font-variation-settings:  'blck' 0, 'back' 0, 'form' 0;
+            }
+    
+        }
+
+        #eersteRegel {
+            font-family: "pixel_Mono";
+            animation: eersteRegel 20000ms infinite forwards;
+            color: black; 
+            font-size: 150px
+        }
+
+
+@font-face {
+            font-family: "pixel_Mono";
+            src: url(quadPixel.ttf);
+        }
+
+@keyframes tweedeRegel {
+            
+             0% {
+                font-variation-settings: 'blck' 0, 'back' 0, 'form' 0 ;
+                
+            }
+  	20% {
+                font-variation-settings:  'blck' 300, 'back' 150, 'form' 0;
+            }
+    
+    50% {
+                font-variation-settings:  'blck' 1000, 'back' 400, 'form' 0;
+            }
+
+    80% {
+    			font-variation-settings: 'blck' 800, 'back' 200, 'form' 0;
+    }
+    
+    100% {
+                font-variation-settings:  'blck' 0, 'back' 0, 'form' 0;
+            }
+    
+        }
+
+        #tweedeRegel {
+            font-family: "pixel_Mono";
+            animation: tweedeRegel 15000ms infinite forwards;
+            color: black; 
+            font-size: 150px
+        }
+@font-face {
+            font-family: "pixel_Mono";
+            src: url(quadPixel.ttf);
+        }
+
+@keyframes derdeRegel {
+            
+             0% {
+                font-variation-settings: 'blck' 0, 'back' 0, 'form' 0 ;
+                
+            }
+  	20% {
+                font-variation-settings:  'blck' 0, 'back' 150, 'form' 300;
+            }
+    
+    50% {
+                font-variation-settings:  'blck' 0, 'back' 500, 'form' 1000;
+            }
+
+    80% {
+    			font-variation-settings: 'blck' 0, 'back' 200, 'form' 500;
+    }
+    
+    100% {
+                font-variation-settings:  'blck' 0, 'back' 0, 'form' 0;
+            }
+    
+        }
+
+        #derdeRegel {
+            font-family: "pixel_Mono";
+            animation: derdeRegel 15000ms infinite forwards;
+            color: black; 
+            font-size: 150px
+        }
+
+@font-face {
+            font-family: "pixel_Mono";
+            src: url(quadPixel.ttf);
+        }
+
+@keyframes vierdeRegel {
+            
+             0% {
+                font-variation-settings: 'blck' 0, 'back' 0, 'form' 0 ;
+                
+            }
+  	20% {
+                font-variation-settings:  'blck' 600, 'back' 150, 'form' 800;
+            }
+    
+    50% {
+                font-variation-settings:  'blck' 1000, 'back' 480, 'form' 1000;
+            }
+
+    80% {
+    			font-variation-settings: 'blck' 400, 'back' 200, 'form' 700;
+    }
+    
+    100% {
+                font-variation-settings:  'blck' 0, 'back' 0, 'form' 0;
+            }
+    
+        }
+
+        #vierdeRegel {
+            font-family: "pixel_Mono";
+            animation: vierdeRegel 15000ms infinite forwards;
+            color: black; 
+            font-size: 150px
+        }
+
+
+
+
